@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "运行/调试当前 C++17 文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\Users\\opzx6\\MinGW\\w64devkit\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe 构建当前 C++17 文件"
+        }
+    ]
+}
